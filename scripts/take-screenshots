@@ -15,27 +15,27 @@ from selenium import webdriver
 apps = [
     {
         'name': 'home',
-        'url': 'https://home.khuedoan.com'
+        'url': 'https://home.hurley.dev'
     },
     {
         'name': 'gitea',
-        'url': 'https://git.khuedoan.com/ops/homelab'
+        'url': 'https://git.hurley.dev/ops/homelab'
     },
     {
         'name': 'argocd',
-        'url': 'https://argocd.khuedoan.com/applications/root'
+        'url': 'https://argocd.hurley.dev/applications/root'
     },
     {
         'name': 'tekton',
-        'url': 'https://tekton.khuedoan.com/#/namespaces/tekton-pipelines/pipelineruns/homelab?pipelineTask=external&step=plan'
+        'url': 'https://tekton.hurley.dev/#/namespaces/tekton-pipelines/pipelineruns/homelab?pipelineTask=external&step=plan'
     },
     {
         'name': 'matrix',
-        'url': 'https://chat.khuedoan.com/#/room/#random:matrix.khuedoan.com'
+        'url': 'https://chat.hurley.dev/#/room/#random:matrix.hurley.dev'
     },
     {
         'name': 'grafana',
-        'url': 'https://grafana.khuedoan.com/d/efa86fd1d0c121a26444b636a3f509a8/kubernetes-compute-resources-cluster'  # wtf is this ID
+        'url': 'https://grafana.hurley.dev/d/efa86fd1d0c121a26444b636a3f509a8/kubernetes-compute-resources-cluster'  # wtf is this ID
     },
 ]
 
