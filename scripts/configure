@@ -17,7 +17,7 @@ upstream_config = {
     "seed_repo": "https://github.com/hurleyy/homelab",
     "domain": "hurley.dev",
     "timezone": "America/New_York",
-    "terraform_workspace": "hurleyy",
+    "terraform_workspace": "homelab-external",
     "loadbalancer_ip_range": "10.1.5.224/27",
 }
 
